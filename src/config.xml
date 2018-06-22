@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="HouseholdDisplay" version="0.1.0">
+
+    <details>
+        <title>Household Display</title>
+        <homepage>https://github.com/</homepage>
+        <authors>Alejandro Rodríguez</authors>
+        <email>alex.rodriguez@conwet.com</email>
+        <image></image>
+        <smartphoneimage></smartphoneimage>
+        <description>The best project ever.</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <changelog>doc/changelog.md</changelog>
+        <doc>doc/userguide.md</doc>
+        <license>MIT</license>
+        <issuetracker>https://github.com/</issuetracker>
+    </details>
+
+    <requirements>
+    </requirements>
+
+    <preferences>
+    </preferences>
+
+    <wiring>
+        <inputendpoint name="inputEntity" label="Entity input" type="text" friendcode="entity"/>
+        <outputendpoint name="outputPOI" label="POI output" type="text" friendcode="POI poi PoI"/>
+    </wiring>
+
+    <contents src="index.html"/>
+    <rendering height="300px" width="30%"/>
+
+</widget>

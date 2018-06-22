@@ -1,0 +1,15 @@
+.container-flex {
+    display: flex;
+}
+
+#elements {
+    flex-grow: 1;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    background-color: #fabada; /* Remove once image exists*/
+    margin-right: 20px;
+    margin-top: 20px;
+}
